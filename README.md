@@ -38,3 +38,14 @@ The results from the experiments conducted in the paper demonstrate the performa
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/ZKNA.git
+
+
+## Dataset
+The model was trained and evaluated using the **Adult Income Dataset** from Kaggle. This dataset contains demographic information and income levels, used to predict whether a person earns more or less than $50K annually based on their features.
+
+- **Dataset Link**: [Adult Income Dataset - Kaggle](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset/data#)
+- **Description**: The dataset includes features like age, education, marital status, occupation, and race to classify individuals based on their income. It was preprocessed to handle missing values, encode categorical features, and normalize numerical features before being encrypted for training and evaluation.
+
+## References
+
+1. **Kaggle K-Nearest Neighbors Implementation**: [Adult Income K-Nearest Neighbors (KNN)](https://www.kaggle.com/code/amirhosseinzinati/adult-income-k-nearest-neighbors-knn/input)
